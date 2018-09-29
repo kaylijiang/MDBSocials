@@ -37,13 +37,14 @@ extension LoginViewController{
     //initialize login and signup button
     func init_button(){
         
-        login = UIButton(frame: CGRect(x: 20, y: view.frame.height - 100, width: 200, height: 60))
+        login = UIButton(frame: CGRect(x: 10, y: 550, width: view.frame.width-10, height: 50))
+        
         login.setTitle("Login", for: .normal)
         login.addTarget(self, action: #selector(loginConnect), for: .touchUpInside)
         login.backgroundColor = UIColor.black
         view.addSubview(login)
         
-        signUpButton = UIButton(frame: CGRect(x: 170, y: 80, width: 50, height: 30))
+        signUpButton = UIButton(frame: CGRect(x: 255, y: 80, width: 100, height: 30))
         signUpButton.setTitle("Sign Up", for: .normal)
         signUpButton.addTarget(self, action: #selector(signUpConnect), for: .touchUpInside)
         signUpButton.backgroundColor = UIColor.black
@@ -53,9 +54,10 @@ extension LoginViewController{
     //initialize logo image
     func init_image(){
         
-        logoImage = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
-        logoImage.center = CGPoint(x: view.frame.width / 2, y: view.frame.height / 3)
-        logoImage.image = UIImage(named: "mdb-textonly-gold")
+        logoImage = UIImageView(frame: CGRect(x: 0, y: 0, width: 275, height: 300))
+        logoImage.center = CGPoint(x: view.frame.width / 2, y: view.frame.height / 3 + 20)
+        logoImage.image = UIImage(named: "mdb_nooutline")
+        //self.ResizeImage(UIImage(named: "mdb_nooutline")!, targetSize: CGSizeMake(200.0, 300.0))
         view.addSubview(logoImage)
         
     }
