@@ -11,7 +11,6 @@
 		B20BD298215F231300ED27A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20BD297215F231300ED27A2 /* GoogleService-Info.plist */; };
 		B294A7C0215DE53500070DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A7BF215DE53500070DE8 /* AppDelegate.swift */; };
 		B294A7C5215DE53500070DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B294A7C3215DE53500070DE8 /* Main.storyboard */; };
-		B294A7C7215DE53800070DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B294A7C6215DE53800070DE8 /* Assets.xcassets */; };
 		B294A7CA215DE53800070DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B294A7C8215DE53800070DE8 /* LaunchScreen.storyboard */; };
 		B294A7D5215DE53800070DE8 /* MDBSocialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A7D4215DE53800070DE8 /* MDBSocialsTests.swift */; };
 		B294A7E0215DE53800070DE8 /* MDBSocialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A7DF215DE53800070DE8 /* MDBSocialsUITests.swift */; };
@@ -24,6 +23,7 @@
 		B2D570EC215F35690089C69D /* Feed-Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D570EB215F35690089C69D /* Feed-Init.swift */; };
 		B2D570EE215F357F0089C69D /* Feed-Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D570ED215F357F0089C69D /* Feed-Main.swift */; };
 		B2D570F0215F358A0089C69D /* Feed-Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D570EF215F358A0089C69D /* Feed-Connect.swift */; };
+		B2D570F3215F506D0089C69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D570F2215F506D0089C69D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 		B294A7BC215DE53500070DE8 /* MDBSocials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDBSocials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B294A7BF215DE53500070DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B294A7C4215DE53500070DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B294A7C6215DE53800070DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B294A7C9215DE53800070DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B294A7CB215DE53800070DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B294A7D0215DE53800070DE8 /* MDBSocialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDBSocialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +68,7 @@
 		B2D570EB215F35690089C69D /* Feed-Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed-Init.swift"; sourceTree = "<group>"; };
 		B2D570ED215F357F0089C69D /* Feed-Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed-Main.swift"; sourceTree = "<group>"; };
 		B2D570EF215F358A0089C69D /* Feed-Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed-Connect.swift"; sourceTree = "<group>"; };
+		B2D570F2215F506D0089C69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Pokedex/mdb_mp2_pokedex/mdb_mp2_pokedex/Assets.xcassets; sourceTree = "<group>"; };
 		D3ED7D47D3BDD700F25BB20E /* Pods-MDBSocials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBSocials.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBSocials/Pods-MDBSocials.debug.xcconfig"; sourceTree = "<group>"; };
 		D9A87784911A4E983F6B2A92 /* Pods_MDBSocials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBSocials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,7 +148,7 @@
 				B2A79F4A215F0A6E003AF771 /* SignupFiles */,
 				B294A7BF215DE53500070DE8 /* AppDelegate.swift */,
 				B294A7C3215DE53500070DE8 /* Main.storyboard */,
-				B294A7C6215DE53800070DE8 /* Assets.xcassets */,
+				B2D570F2215F506D0089C69D /* Assets.xcassets */,
 				B20BD297215F231300ED27A2 /* GoogleService-Info.plist */,
 				B294A7C8215DE53800070DE8 /* LaunchScreen.storyboard */,
 				B294A7CB215DE53800070DE8 /* Info.plist */,
@@ -312,7 +312,7 @@
 			files = (
 				B294A7CA215DE53800070DE8 /* LaunchScreen.storyboard in Resources */,
 				B20BD298215F231300ED27A2 /* GoogleService-Info.plist in Resources */,
-				B294A7C7215DE53800070DE8 /* Assets.xcassets in Resources */,
+				B2D570F3215F506D0089C69D /* Assets.xcassets in Resources */,
 				B294A7C5215DE53500070DE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

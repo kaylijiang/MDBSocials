@@ -57,6 +57,7 @@ extension SignVC{
         register.setTitle("Register", for: .normal)
         register.addTarget(self, action: #selector(registerConnect), for: .touchUpInside)
         register.backgroundColor = UIColor.black
+        register.layer.cornerRadius = 5
         view.addSubview(register)
     }
 }
