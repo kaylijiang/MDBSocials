@@ -16,14 +16,16 @@ class SignVC: UIViewController {
     var logoImage: UIImageView!
     var name_txt: UITextField!
     var username_txt: UITextField!
+    var signInImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         init_text()
         init_button()
+        init_image()
         
-        let blue = UIColor.init(red: 153/255.0, green: 204/255.0, blue: 255/255.0, alpha: 1.0)
+        let blue = UIColor.init(red: 153/255.0, green: 187/255.0, blue: 255/255.0, alpha: 1.0)
         self.view.backgroundColor = blue
         
     }
